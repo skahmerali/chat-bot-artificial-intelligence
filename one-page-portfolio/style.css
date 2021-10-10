@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+}
+
+.main {
+    width: 98%;
+    background-color: azure;
+    margin: 0% auto;
+    /* border: rgb(58, 58, 47) dotted 2px ; */
+    max-width: 1247px;
+    min-width: 1247px;
+
+}
+
+.header {
+    background-color: rgb(218, 214, 214);
+    /* box-shadow: 5px 10px; */
+
+}
+
+.right {
+    float: right;
+    width: 70%;
+    background-color: rgb(226, 226, 226);
+}
+
+.decoration-non {
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.span-left {
+    width: 40%;
+    float: left;
+    /* text-align: left; */
+    margin: 2px;
+    display: inline-block;
+}
+
+/* .span-left>li{
+    
+} */
+.span-right {
+    display: inline-block;
+    width: 40%;
+    margin: 2px;
+    text-align: right;
+}
+
+/* .span-right>li{
+
+} */
+.address-center {
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-heading {
+    width: 100%;
+    height: 285px;
+    background-color: rgb(42, 40, 40);
+
+}
+
+.name {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 100px;
+}
+
+.profile-image {
+    /* float: left; */
+    width: 368px;
+    opacity: 0.3;
+}
+
+.left {
+    width: 30%;
+    background-color: rgb(59, 57, 57);
+    float: left;
+    height: 100%;
+    position: static;
+    z-index: -1;
+    color: white;
+    text-align: right;
+}
+
+.content-heading {
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+/* .profile-image{
+
+} */
+.profile {
+    height: 150px;
+}
+
+.work-experience {
+    height: 250px;
+
+}
+
+.job-intrest {
+    height: 200px;
+
+}
+
+.education-qualification {
+
+    height: 460px;
+}
+
+.skils {
+    height: 200px;
+}
+
+.reference {
+
+    height: 60px;
+}
+
+.content {
+
+    margin: 20px;
+    font-family: sans-serif;
+
+}
+
+.content h1 {
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    font-family: monospace;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.profile-content {
+    height: 200px;
+}
+
+.experience-content {
+    height: 250px;
+
+}
+
+.job-content {
+    height: 200px;
+}
+
+.education-content {
+    height: 460px;
+}
+
+.skils-content {
+    height: 240px;
+}
+
+.arrowImage {
+    /* list-style-image: url('./image/arrow-png-download.png') ; */
+    /* width: 20px; */
+    display: inline-block;
+}

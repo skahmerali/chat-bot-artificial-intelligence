@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+
+.right {
+    float: right !important;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    color: rgb(32, 25, 17);
+}
+.main{
+    text-align: center;
+    margin: 0% auto;
+    height: 900px;
+    width: 90%;
+    background-color: rgb(212, 211, 209);
+    box-shadow: 50px 5px 20px ;
+}
