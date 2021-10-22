@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate the String</title>
+</head>
+<body>
+    
+<h1>Rotate the String</h1>
+
+<p  id="rotate">Saylani</p>
+
+
+
+<!-- <button onclick="rotate()">Rotate</button> -->
+<script>
+
+
+
+
+let  word = "Saylani";
+
+let arr = word.split('');
+
+
+function rotate(){
+
+    let word1 = arr.pop();
+    let word2 = arr.unshift(word1);
+    let word3 = arr.join('');
+   
+    document.getElementById("rotate").innerHTML = word3;
+
+   
+
+}
+
+setInterval(rotate, 1000)
+
+    
+</script>
+
+</body>
+</html>
