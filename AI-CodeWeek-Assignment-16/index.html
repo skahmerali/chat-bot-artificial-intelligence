@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container border rounded ">
+        <div class="mb-3 ">
+            <br>
+            <p>16. Write a JavaScript program to reverse the elements of a given array, you can not use Array.reverse()
+                do it with loop.</p>
+        </div>
+        <div class="mb-3">
+            <p>1243</p>
+
+            <button onclick="reverseArray()" class="btn btn-outline-primary">reverse</button>
+        </div>
+        <p>Answer:</p>
+        <p id="ReverseResult"></p>
+        <br>
+
+    </div>
+    <script src="">
+        function reverseArray() {
+            arr = [1, 2, 3, 4];
+            arr12 = [];
+            for (let i = arr.length - 1; i >= 0; i--) {
+                arr12.push(arr[i]);
+            }
+            document.getElementById("ReverseResult").innerHTML = arr12;
+        
+        }</script>
+</body>
+</html>

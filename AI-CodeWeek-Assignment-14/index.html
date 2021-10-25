@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container border rounded ">
+        <div class="mb-3 ">
+            <br>
+            <p>14. Write a JavaScript program to capitalize the first letter of each word of a given string.</p>
+        </div>
+        <div class="mb-3">
+            <input type="text" id="text" placeholder="Enter first number" required>
+
+            <button onclick="capilize()" class="btn btn-outline-primary">capilize</button>
+        </div>
+        <p>Answer:</p>
+        <p id="capilizeResult"></p>
+        <br>
+
+    </div>
+    <script src="">function capilize() {
+
+        let text = document.getElementById("text").value
+        let words = text.split(" ");
+    
+        for (let i = 0; i < words.length; i++) {
+            words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+        }
+    
+        document.getElementById("capilizeResult").innerHTML = words.join(" ");
+    
+    
+    }</script>
+</body>
+</html>
